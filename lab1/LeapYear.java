@@ -6,7 +6,8 @@ public class LeapYear {
     //Calls isLeapYear to print correct statement.
 	public static boolean isLeapYear(int a) 
 	{
-	 return	false;	
+	 if(a%4==0||a%400==0||a%100!=0) return true;
+     else return false;
 	}
     //@param  year to be analyzed
      
